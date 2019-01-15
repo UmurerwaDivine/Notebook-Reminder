@@ -1,0 +1,11 @@
+/* Align text in center*/
+h1{
+  text-align: center;
+}
+.sign{
+  margin-left:650px;
+}
+.end{
+  background-color: #333;
+  overflow: hidden;
+}
