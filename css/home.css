@@ -93,3 +93,12 @@ h1{
     50%{color:whitesmoke;}
     100%{color:lightcyan;}
 }
+@media only screen and (max-width:1180px){
+    main-nav{
+        width:100%;
+        padding:0 2%;
+    }
+}
+@media only screen and (max-width:998px){
+    h1{font-size: 200%;}
+}
