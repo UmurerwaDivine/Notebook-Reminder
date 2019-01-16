@@ -3,12 +3,10 @@
     padding:0px;
     box-sizing:border-box;
 
-
 } 
  
- 
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     height:800px;
     width:1300px;
@@ -22,4 +20,17 @@ header{
 .main-nav{
     float:right;
     margin-top:60px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style:none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    color:whitesmoke;
+    font-weight:bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+
 }
