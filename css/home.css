@@ -4,6 +4,11 @@
     box-sizing:border-box;
 
 } 
+body{
+    font-size:20px;
+    overflow-x: hidden;
+    color:lightcyan
+}
  
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
@@ -12,6 +17,13 @@ header{
     width:1300px;
     background-repeat: no-repeat;
     
+}
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display:block;
+    height:0px;
+    clear:both;
 }
 .row{
     max-width:1180px;
@@ -27,10 +39,40 @@ header{
     margin-left: 40px;
 }
 .main-nav li a{
-    color:whitesmoke;
+    color:lightcyan;
     font-weight:bolder;
     text-decoration: none;
     text-transform: uppercase;
-   
+    font-size:90%;
 
+}
+.main-page{
+    /*width:1180px;*/
+    position:absolute;
+    
+    top:40%;
+    left:30%;
+    transform:translate(-30%, -30%);
+}
+h1{
+    
+    font-size: 220%;
+    word-spacing:3px;
+    letter-spacing:1px;
+    margin-bottom:20px;
+    text-transform:uppercase;
+
+}
+.reminder{
+    display:inline-block;
+    padding:10px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition:background-color 0.2s, border 0.2s, color 0.2s;
+    background-color:transparent;
+    color:lightskyblue;
+    margin-right:15px;
+    border:1px solid lightskyblue;
 }
