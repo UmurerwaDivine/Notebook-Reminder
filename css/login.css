@@ -1,3 +1,9 @@
+form{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.container{
+  color:lightcyan;
+}
 /* Bordered form */
 form {
   border: 3px solid #f1f1f1;
@@ -15,7 +21,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: lightseagreen;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -32,14 +38,14 @@ button:hover {
 /* Extra style for the cancel button (red) */
 .cancelbtn {
   width: auto;
-  padding: 10px 18px;
+  padding: 8px 10px;
   background-color: #f44336;
 }
 
 /* Center the avatar image inside this container */
 .imgcontainer {
   text-align: center;
-  margin: 24px 0 12px 0;
+  margin: 20px 0 10px 0;
 }
 
 /* Avatar image */
@@ -50,13 +56,14 @@ img.avatar {
 
 /* Add padding to containers */
 .container {
-  padding: 16px;
+  padding: 14px;
 }
 
 /* The "Forgot password" text */
 span.psw {
   float: right;
-  padding-top: 16px;
+  padding-top: 14px;
+  color:blue;
 }
 
 /* Change styles for span and cancel button on extra small screens */
