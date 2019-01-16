@@ -8,7 +8,7 @@
  
  
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('https://images.pexels.com/photos/163166/coffee-envelopes-work-desk-notebook-163166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     height:800px;
     width:1300px;
@@ -18,4 +18,8 @@ header{
 .row{
     max-width:1180px;
     margin: 0 auto;
+}
+.main-nav{
+    float:right;
+    margin-top:60px;
 }
