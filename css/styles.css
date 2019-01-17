@@ -1,5 +1,33 @@
-.Priority {
-    
-    background-image: url("https://dev.w3.org/Amaya/doc/Backgrounds/pink_fabric.gif");
-
+h2,form,.Priority {
+    margin-right: 80px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: no-repeat;
 }
+ form {
+     margin: 50px;
+     text-align: center;
+
+ }
+ input[type=text], specify {
+     width: 30%;
+     padding: 10px 15px;
+     margin: 6px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+     box-sizing: border-box;
+     font-size: 20px;
+     
+ }
+ h2 {
+     text-align: center;
+     margin: 40px;
+ }
+ input[type=button], Remind me {
+     font-size: 30px;
+     background-color: lightblue;
+     border-radius: 50px;
+ }
+
+    
+ 
