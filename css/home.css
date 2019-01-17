@@ -16,11 +16,7 @@ body{
     font-family: 'Flamenco', cursive;
 }
  
-header{
-   
-   
-    
-}
+
 .clearfix:after{
     content: ".";
     visibility: hidden;
@@ -130,13 +126,13 @@ footer{
 .fa-github, .fa-twitter, .fa-slack{
     color:grey;
     background-color:lightblue;
-    border-radius: 30px;
+    border-radius: 40px;
     
 
 }
 
-}
+
 .connect{
     padding:20px;
-    font-size:40px;
+    font-size:30px;
 }
