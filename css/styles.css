@@ -1,14 +1,21 @@
 h2,form,.Priority {
     margin-right: 80px;
+    
+}
+body{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-image: no-repeat;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    height:800px;
+    width:1300px;
+    background-size:cover;
 }
  form {
      margin: 50px;
      text-align: center;
 
  }
- input[type=text], specify {
+ input[type=text], remind {
      width: 30%;
      padding: 10px 15px;
      margin: 6px 0;
