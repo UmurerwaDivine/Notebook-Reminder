@@ -45,16 +45,27 @@ p{
 
 
 
-.button{
-  
-
-  background-color: green;
-  color: white;
-  padding: 15px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-  margin-top: 0 auto;
-  text-transform: lowercase;
+textarea{
+    border-radius: 6px;
+    width: 275px;
+    height: 100px;
 }
+
+#sub{
+    font-size: 15px;
+}
+p{
+    font-size: 90px;
+    text-align: center;
+    padding-top: 100px;
+    color: lightskyblue;
+}
+.main-page{
+
+        position:absolute;
+      
+        top:55%;
+        left:30%;
+        transform:translate(-30%, -30%);
+        
+      }

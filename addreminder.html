@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/addreminder.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/addreminder.js"></script>
@@ -12,24 +13,26 @@
 </head>
 <body>
     
-    <h1>Feedback form.</h1>
+    <h1>Feedback form</h1>
     <p></p>
     <div id="Feedback">
             <form id="test">
                     <label for="Names"><b>Names</b></label>
-                    <input type="text" placeholder="Enter Names" name="Names" required>
+                    <input type="text" placeholder="Enter Names" name="Names" class="form-control" required>
 
                     <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="enter Email" name="Email" required>
+                    <input type="text" placeholder="enter Email" name="Email" class="form-control" required>
 
                     <label for="comments"><b>Comments</b></label>
-                    <input type="text" placeholder="add Comments" name="Comments" required>
-                 
-                    <div class="button">
-                            <button type="button" class="btn btn-submit">submit</button>
-                         </div>
+                    <textarea  placeholder="add Comments" required></textarea>
+                    
+                    <button type="button" class="btn btn-success" id="sub">Submit</button>   
+                   
+                           
+                         
 
-            </form>        
+            </form> 
+                
     </div>
    
 </body>
