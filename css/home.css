@@ -115,5 +115,28 @@ h1{
     float:right;
 }
 footer{
-    margin-bottom: 100px;
+    margin-top: 300px;
+    padding-top:300px;
+    
+
+}
+.icon{
+    font-size:40px;
+    display: block;
+    text-align: center;
+    margin:0 5px 0 0;
+    
+}
+.fa-github, .fa-twitter, .fa-slack{
+    color:grey;
+    background-color:lightblue;
+    border-radius: 30px;
+    
+
+}
+
+}
+.connect{
+    padding:20px;
+    font-size:40px;
 }
