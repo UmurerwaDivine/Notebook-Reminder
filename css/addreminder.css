@@ -23,18 +23,38 @@ body{
 #test{
     position: relative;
     z-index: 1;
-    background-color: white;
     max-width: 360px;
     margin: 0 auto 100px;
     padding: 45px;
     text-align: center;
 
 }
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+
 
 .button{
-    width: 80px;
-    float: left;
-    opacity: 0.6;
-    background-color: #4CAF50; /* Green */
-    border-radius: 2px;
+  
+
+  background-color: green;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-top: 0 auto;
+  text-transform: lowercase;
 }
