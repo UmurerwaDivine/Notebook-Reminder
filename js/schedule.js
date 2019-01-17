@@ -88,7 +88,12 @@
         {
           title: 'Click for Google',
           url: 'http://google.com/',
-          start: '2019-01-28'
+          start: '2019-01-28',
+          
+        },
+        {
+        title: 'Graduation',
+        start: '2019-01-18: 09:00-11:00',
         }
       ]
     });
