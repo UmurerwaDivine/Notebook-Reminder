@@ -99,3 +99,22 @@
     });
 
   });
+  setInterval(function(){
+var date = new Date();
+updateTime(date);
+upadateClock(date);
+
+  },1000);
+  function upadateClock(date){
+    var secHand = document.getElementById("sec-hand").style;
+    var minHand = document.getElementById("sec-hand").style;
+    var hrHand = document.getElementById("sec-hand").style;
+    secHand.transform = "rotate(" + date.getSeconds()* 6 +"deg)";
+    minHand.transform = "rotate(" + date.getMinutes()* 12 +"deg)";
+    hrHand.transform = "rotate(" + date.getHours()* 30 + date.getMinutes()* 0.5 +"deg)";
+  }
+  function updateTime(date){
+    var timeDiv = document.getElementById("time");
+    var time = "time for Reference-- " + date.getHours() + " : " + date.getMinutes() + " : " + date.getSeconds();
+    timeDiv.innerHTML = time;
+  }
