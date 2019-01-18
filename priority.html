@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Notebook Reminder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/priority.css" />
     <link rel="icon" type="image/ico" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCof1WsftZxkvzbLiX36X9aYmeP0-mBzljPieNQruf_y2by3Kc8w"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
     <script src="js/scripts.js"></script>
 </head>
 <body>
@@ -14,13 +16,15 @@
         <h2>Quick Reminder</h2>
         <form>
            Remind:<br>
-            <input type="text" name="remind">
+            <input type="text" class="form-control" name="remind">
             <br>
             Date:<br>
-            <input type="text" name="Date">
+            <input type="date" class="form-control" name="Date">
+         
             <br>
             Time:<br>
-            <input type="text" name="Time">
+            <input type="time" class="form-control" name="Time">
+            
             <br><br><br>
             <input type="button" value="Remind me" onclick="msg()">
         </form>
