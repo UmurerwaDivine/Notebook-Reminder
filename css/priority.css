@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 h2,form,.Priority {
     margin-right: 80px;
     
@@ -7,16 +7,29 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-repeat: no-repeat;
     overflow-x: hidden;
-    height:800px;
-    width:1300px;
+   
     background-size:cover;
 }
  form {
      margin: 50px;
-=======
+ }
 
-    
-
+.add {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 60px;
+}    
+.close {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 60px;
+}
 body {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-repeat: no-repeat;
@@ -24,37 +37,16 @@ body {
     
    
 }
-input[type=text], Date {
-     padding: 8px;
-     font-size: 10px;
-     width: 10%;
-     align-content: center;
-     justify-content: center;
-     text-align: center;
-     font-size: 20px;
-     box-sizing: border-box;
-     
-}
-input[type=text], Time {
-    background-color: lightgrey;
-      border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
+
   
    
  form {
      margin: 30px;
->>>>>>> bb9e3bea6f31a9d3137afc437b31e932636783dd
+
      text-align: center;
 
  }
  input[type=text], remind {
-<<<<<<< HEAD
      width: 30%;
      padding: 10px 15px;
      margin: 6px 0;
@@ -65,35 +57,56 @@ input[type=text], Time {
      font-size: 20px;
      
  }
-=======
-     width: 20%;
-     padding: 10px 12px;
-     margin: 4px 0;
-     display: inline-block;
-     border: 1px solid #ccc;
-     border-radius: 10px;
-     box-sizing: border-box;
-     font-size: 10px;
-     
- }
 
->>>>>>> bb9e3bea6f31a9d3137afc437b31e932636783dd
+    
+
  h2 {
      text-align: center;
      margin: 40px;
  }
  input[type=button], Remind me {
-<<<<<<< HEAD
      font-size: 30px;
      background-color: lightblue;
      border-radius: 50px;
-=======
+
      font-size: 20px;
      background-color: lightblue;
      border-radius: 40px;
      font-family: 'Flamenco', cursive;
->>>>>>> bb9e3bea6f31a9d3137afc437b31e932636783dd
+
  }
+ .clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display:block;
+    height:0px;
+    clear:both;
+}
+.row{
+    max-width:1180px;
+    margin: 0 auto;
+}
+.main-nav{
+    float:right;
+    margin-top:60px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style:none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    color:lightcyan;
+    font-weight:bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:90%;
+    padding:5px;
+
+}
+.main-nav li a:hover{
+    border-bottom:3px solid lightskyblue;
+}
 
     
  

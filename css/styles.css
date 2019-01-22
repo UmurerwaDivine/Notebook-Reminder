@@ -1,19 +1,23 @@
-<<<<<<< HEAD
+
 body{
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
-h1{
-  color:lightcyan;
-}
+
 .tablinks{
-  color:blue;
+  color:burlywood;
+  font-weight: 100;
 }
-#Info{
+#Info {
   color:lightcyan;
+  
+
 }
+
 /* Align text in center*/
-h1{
+#qw{
   text-align: center;
+  color:burlywood;
+  font-family: 'Flamenco', cursive;
 }
 .sign{
   margin-left:650px;
@@ -25,7 +29,7 @@ h1{
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -56,5 +60,4 @@ h1{
   border: 1px solid #ccc;
   border-top: none;
 }
-=======
->>>>>>> bb9e3bea6f31a9d3137afc437b31e932636783dd
+

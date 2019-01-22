@@ -5,32 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Notebook Reminder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
+
     <link rel="stylesheet" type="text/css" media="screen" href="./css/priority.css" />
-=======
+
     <link rel="stylesheet" type="text/css" media="screen" href="css/priority.css" />
->>>>>>> bb9e3bea6f31a9d3137afc437b31e932636783dd
+
     <link rel="icon" type="image/ico" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCof1WsftZxkvzbLiX36X9aYmeP0-mBzljPieNQruf_y2by3Kc8w"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
     <script src="js/scripts.js"></script>
 </head>
 <body>
+        <nav>
+                <div class="row clearfix">
+                  
+                    <ul class="main-nav animated slideInRight">
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="aboutus.html">ABOUT US</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="addreminder.html">FEEDBACK</a></li>
+                    </ul>
+
+                </div>
+            </nav>
     <div class="Priority">
         <h2>Quick Reminder</h2>
-        <form>
+        <form class="fo">
            Remind:<br>
             <input type="text" class="form-control" name="remind">
             <br>
+            <form class="add">
             Date:<br>
             <input type="date" class="form-control" name="Date">
          
             <br>
+            <form class="close">
             Time:<br>
             <input type="time" class="form-control" name="Time">
             
             <br><br><br>
             <input type="button" value="Remind me" onclick="msg()">
+        </form>
+        </form>
         </form>
 
       
